@@ -1,7 +1,7 @@
 {
   "name": "com.unity.collab-proxy",
   "displayName": "Version Control",
-  "version": "2.0.7s",
+  "version": "2.0.7",
   "unity": "2020.3",
   "unityRelease": "48f1",
   "description": "The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting plasticscm.com. STRIDOR",
