@@ -3,7 +3,7 @@
 namespace Unity.PlasticSCM.Editor.AssetsOverlays
 {
     [Flags]
-    internal enum AssetStatus
+    public enum AssetStatus
     {
         None            = 0,
         Private         = 1 << 0,
