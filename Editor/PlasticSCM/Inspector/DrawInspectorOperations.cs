@@ -273,7 +273,7 @@ namespace Unity.PlasticSCM.Editor.Inspector
             }
         }
 
-        public static AssetsOverlay.AssetStatus GetAssetStatus(string path)
+        public static AssetsOverlays.AssetStatus GetAssetStatus(string path)
         {
             AssetsOverlays.AssetStatus assetStatus = AssetsOverlays.AssetStatus.None;
             path = Path.GetFullPath(path);
