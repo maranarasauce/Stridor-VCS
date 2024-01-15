@@ -273,12 +273,11 @@ namespace Unity.PlasticSCM.Editor.Inspector
             }
         }
 
-        public static bool IsAssetLocked(string path)
+        public static AssetsOverlay.AssetStatus GetAssetStatus(string path)
         {
             AssetsOverlays.AssetStatus assetStatus = AssetsOverlays.AssetStatus.None;
             path = Path.GetFullPath(path);
-            assetStatus = mAssetStatusCache.GetStatus(path);
-            return assetStatus.HasFlag(AssetsOverlays.AssetStatus.LockedRemote);
+            return mAssetStatusCache.GetStatus(path);
         }
 
         static void GetAssetStatusToDraw(
